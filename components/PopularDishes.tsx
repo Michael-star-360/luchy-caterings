@@ -20,10 +20,10 @@ const dishes: DishItem[] = [
   { name: 'Okro Soup', category: 'Traditional Soup', img: '/images/okro.jpg' },
   { name: 'Afang / Ogbono Soup', category: 'Traditional Soup', img: '/images/Afang.jpg' },
   { name: 'Small Chops', category: 'Event Platters', img: '/images/small chops.jpg', popular: true },
-  { name: 'Pastries', category: 'Freshly Baked', img: '/images/smallchops.jpg' },
+  { name: 'Pastries', category: 'Freshly Baked', img: '/images/pasteries.jpg' },
 ];
 
-const containerVariants: Variants = {
+const containerVariants: Variants = { 
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
