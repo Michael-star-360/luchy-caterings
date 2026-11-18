@@ -13,13 +13,13 @@ interface DishItem {
 }
 
 const dishes: DishItem[] = [
-  { name: 'Jollof Rice', category: 'Signature Rice', img: '/images/jollofrice.jfif', popular: true },
+  { name: 'Jollof Rice', category: 'Signature Rice', img: '/images/jollof.jpg', popular: true },
   { name: 'Fried Rice', category: 'Signature Rice', img: '/images/friedrice.jpg' },
-  { name: 'Ukazi Soup', category: 'Traditional Soup', img: '/images/ukazi soup.jfif' },
-  { name: 'Egusi Soup', category: 'Traditional Soup', img: '/images/Egusi soup.jfif', popular: true },
-  { name: 'Okro Soup', category: 'Traditional Soup', img: '/images/okra soup.jfif' },
-  { name: 'Afang / Ogbono Soup', category: 'Traditional Soup', img: '/images/Afang soup.jfif' },
-  { name: 'Small Chops', category: 'Event Platters', img: '/images/small chops.jfif', popular: true },
+  { name: 'Ukazi Soup', category: 'Traditional Soup', img: '/images/uziza.jpg' },
+  { name: 'Egusi Soup', category: 'Traditional Soup', img: '/images/egusi.jpg', popular: true },
+  { name: 'Okro Soup', category: 'Traditional Soup', img: '/images/okro.jpg' },
+  { name: 'Afang / Ogbono Soup', category: 'Traditional Soup', img: '/images/Afang.jpg' },
+  { name: 'Small Chops', category: 'Event Platters', img: '/images/small chops.jpg', popular: true },
   { name: 'Pastries', category: 'Freshly Baked', img: '/images/smallchops.jpg' },
 ];
 
