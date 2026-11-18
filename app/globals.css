@@ -1,26 +1,58 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --bg-burgundy: #3B0609;
+    --bg-cream: #FAF6F0;
+    --bg-card: #FFFDF9;
+    --color-gold: #E5A638;
+    --color-gold-hover: #C88D27;
+    --color-text-dark: #2A2A2A;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Custom background classes */
+.bg-catering-burgundy {
+  background-color: #3B0609 !important;
+}
+
+.bg-catering-cream {
+  background-color: #FAF6F0 !important;
+}
+
+.bg-catering-card {
+  background-color: #FFFDF9 !important;
+}
+
+/* Custom text colors */
+.text-catering-gold {
+  color: #E5A638 !important;
+}
+
+.text-catering-burgundy {
+  color: #3B0609 !important;
+}
+
+.text-catering-dark {
+  color: #2A2A2A !important;
+}
+
+/* Custom button backgrounds */
+.bg-catering-gold {
+  background-color: #E5A638 !important;
+}
+
+.bg-catering-gold:hover {
+  background-color: #C88D27 !important;
+}
+
+/* Custom border colors */
+.border-catering-gold {
+  border-color: #E5A638 !important;
+}
+
+/* Force light root background */
+html, body {
+  background-color: #FAF6F0 !important;
+  color: #2A2A2A !important;
 }
